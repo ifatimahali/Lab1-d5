@@ -17,9 +17,8 @@ async function imageList(){
         img.src = e.image;
         console.log(img)
 
-
-        listImage.append(namE);
         listImage.append(img);
+        listImage.append(namE);
         document.querySelector(".image").append(divImage)
 
     })
